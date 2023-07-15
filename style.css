@@ -1,29 +1,88 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
 *{
+    /*shared styles*/
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif; 
+    padding: 0%;
+    margin: auto;
+}
+.btn-primary{
+    background-color: red;
+    color: bisque;
+    padding: 5px;
+    margin: 20px;
+    border: none;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-size: 20px;
 }
 
+/*header-styles*/
 
-.navbar{
+header{
+    background-color: burlywood;
+    padding: 50px 240px;
+
+}
+nav{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
 }
-
-.main-title{
-    font-size: 40px;
+.nav-title{
+    font-size: 2.7rem;
 }
-.right-site-nav{
+nav > ul{
     display: flex;
-    gap: 50px;
-}
-.right-site-nav> li, a {
-    list-style: none;
-    text-decoration: none;
     
 }
-   {
+nav li{
+    list-style: none;
+    margin: 30px;
+}
+nav li a{
     text-decoration: none;
 }
+
+/*banner-styles*/
+.banner-content{
+    max-width: 500px;
+    text-align: center;
+
+}
+
+.banner-img{
+    width: 850px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
