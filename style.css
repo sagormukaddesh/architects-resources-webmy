@@ -156,6 +156,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
     border: 1px solid rgb(223, 100, 78);
     padding:30px;
     border-radius: 5px;
+    padding:40px 30px;
 }
 .fact-card-container .card-stats {
     margin-top: 10px;
@@ -185,15 +186,6 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 .sponsors-img-container img {
     width:165px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
