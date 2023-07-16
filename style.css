@@ -118,6 +118,7 @@ main{
 .fact-card-container > .card {
     border: 1px solid rgb(223, 100, 78);
     padding:30px;
+    border-radius: 5px;
 }
 .fact-card-container .card-stats {
     margin-top: 10px;
@@ -139,7 +140,8 @@ main{
        background-color: rgba(253, 118, 21, 0.979);  
     }
     nav, 
-    .teams-container
+    .teams-container, 
+    .fact-card-container
     {
         flex-direction: column;
     }
@@ -148,6 +150,13 @@ main{
     }
     .teams-img-container{
         grid-template-columns: 1fr;
+    }
+    .fact-card-container{
+        margin-left: 150px;
+        margin-right: 150px;
+        
+        
+        gap: 10px;
     }
 }
 
