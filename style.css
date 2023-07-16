@@ -4,8 +4,7 @@
     /*shared styles*/
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif; 
-    padding: 0%;
-    margin: auto;
+    
 }
 .btn-primary{
     background-color: red;
@@ -17,18 +16,24 @@
     border-bottom-right-radius: 12px;
     font-size: 20px;
 }
+.text-light-gray{
+    color:rgb(63, 81, 99);
+    font-size: 1.1rem;
+}
 
 /*header-styles*/
 
 header{
     background-color: burlywood;
-    padding: 50px 240px;
+    padding: 50px 150px;
 
 }
 nav{
+    
     display: flex;
     justify-content:space-between;
     align-items: center;
+   
 }
 .nav-title{
     font-size: 2.7rem;
@@ -46,15 +51,59 @@ nav li a{
 }
 
 /*banner-styles*/
+
 .banner-content{
-    max-width: 500px;
+    max-width: 800px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 
 }
 
-.banner-img{
-    width: 850px;
-    height: 400px;
+.banner img{
+    width: 100%;
+}
+
+/* media query */
+/* mobile device */
+
+       /* main styles */
+
+main{
+    max-width: 960px;
+    margin:50px auto ;
+}
+.teams-container{
+    display: flex;
+    margin-top: 30px;
+   justify-content: center;
+    align-items: center;
+
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1.5rem;
+    
+}
+.teams-img-container img{
+    width: 260px;
+}
+.teams-content{
+    padding-left: 80px;
+    padding-right: 70px;
+
+}
+.teams-title{
+    font-size: 2.5rem;
+}
+.quist-list{
+    color: darkolivegreen;
+    font-weight: 700;
+}
+.text-features{
+    color: chocolate;
 }
 
 
@@ -66,12 +115,35 @@ nav li a{
 
 
 
+@media screen and (max-width: 830px) {
+    header{
+       background-color: rgba(253, 118, 21, 0.979);  
+    }
+    nav, 
+    .teams-container
+    {
+        flex-direction: column;
+    }
+    main{
+        background-color: rgba(85, 228, 168, 0.897); 
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/*medium device*/
 
 
+@media screen and (min-width: 830px) and (max-width:960px) {
+    header{
+    background-color: rgba(35, 201, 201, 0.781);
+    }
+   nav, .teams-container{
+    flex-direction: column;
+   }
 
-
-
-
+}
 
 
 
